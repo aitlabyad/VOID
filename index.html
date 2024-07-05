@@ -17,9 +17,32 @@
     <div class="container">
       <!-- Nav bar section -->
       <header>
-        <nav class="h-[73px]  flex flex-row p-2 ">
-          <div class="flex flex-row ">
-            <span class="flex flex-col justify-center text-[#000] text-[33px] font-bold ">Logo</span>
+        <nav class="h-[73px]  flex flex-row p-2 mx-6">
+            
+          <div class="w-full md:w-auto  flex justify-between">
+            <div class="flex self-center md:hidden">
+                
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM3 7C3 7.55 3.45 8 4 8H20C20.55 8 21 7.55 21 7C21 6.45 20.55 6 20 6H4C3.45 6 3 6.45 3 7Z" fill="#7A00E6"/>
+                    </svg>
+                    
+                    
+            </div>
+            <div class="flex text-black md:text-[33px]  text-[42px] font-bold self-center ">Logo</div>
+            <div class=" flex self-center md:hidden">
+                <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_1474)">
+                    <path d="M15.9999 8.2C15.9999 9.92125 15.4412 11.5113 14.4999 12.8013L19.2474 17.5525C19.7162 18.0212 19.7162 18.7825 19.2474 19.2513C18.7787 19.72 18.0174 19.72 17.5487 19.2513L12.8012 14.5C11.5112 15.445 9.92115 16 8.1999 16C3.89115 16 0.399902 12.5088 0.399902 8.2C0.399902 3.89125 3.89115 0.400002 8.1999 0.400002C12.5087 0.400002 15.9999 3.89125 15.9999 8.2ZM8.1999 13.6C11.1812 13.6 13.5999 11.1813 13.5999 8.2C13.5999 5.21875 11.1812 2.8 8.1999 2.8C5.21865 2.8 2.7999 5.21875 2.7999 8.2C2.7999 11.1813 5.21865 13.6 8.1999 13.6Z" fill="#7A00E6"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_1474">
+                    <rect width="19.2" height="19.2" fill="white" transform="translate(0.399902 0.400002)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+                    
+                </div>
           </div>
           <div class="grow hidden lg:flex flex-row mx-10 justify-center">
            
@@ -57,7 +80,7 @@
               </ul>
             </div>
           </div>
-          <div class="flex flex-col justify-center ">
+          <div class="hidden md:flex flex-col justify-center ">
             <div class="flex flex-row gap-4 ">
               <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_599)">
@@ -88,11 +111,14 @@
 
 
       <!-- hero section -->
-      <section class="h-[576px]  bg-top bg-no-repeat top-0 md:bg-fit  md:bg-center bg-[url('/asset/hero-image.png')] md:flex md:flex-col md:justify-center mb-96 md:mb-12 overflow-y-visible">
-        <div class="content-center  md:translate-x-[25%] w-[320px] md:w-[590px] h-[600px] md:h-[452px] md:p-8 bg-white rounded-lg flex-col justify-center">
+      <section class="h-[576px]  bg-top bg-no-repeat  md:flex md:flex-col md:justify-center mb-80  md:mb-12 ">
+        <img class="h-[576px] top-[73px]  bg-top no-repeat object-cover    absolute md:flex md:flex-col md:justify-center mb-96 md:mb-12 overflow-y-visible" src="/asset/hero-image.png" alt="hero-img">
+
+
+        <div class="content-center translate-y-[100%] md:translate-y-[0%]  translate-x-[0%] md:translate-x-[25%] w-[520px] p-6 md:p-8  md:w-[590px] h-[420px]  bg-white rounded-lg top-[50px] mx-auto md:mx-0 md:top-0 justify-center relative ">
           <h1 class="text-black text-[44px] font-bold leading-[70px] mb-3"> Journée des maladies rares 2024 : L'équité en action </h1>
-          <p class="text-stone-950 text-sm font-normal leading-normal mb-3"> À l'occasion de la Journée des maladies rares, il est plus important que jamais de continuer à rechercher un diagnostic, une innovation, un soutien et un accès équitables pour les personnes atteintes de maladies rares. </p>
-          <button class="w-36 h-11 bg-purple-700 rounded"> En savoir plus </button>
+          <p class="text-stone-950 text-[15px] font-normal leading-normal mb-3"> À l'occasion de la Journée des maladies rares, il est plus important que jamais de continuer à rechercher un diagnostic, une innovation, un soutien et un accès équitables pour les personnes atteintes de maladies rares. </p>
+          <button class="w-36 h-11 bg-purple-700 rounded text-white"> En savoir plus </button>
         </div>
       </section>
       <!-- main section -->
@@ -391,7 +417,7 @@
       <h2 class="max-w-7xl mx-auto   text-black text-[33.89px] font-bold leading-[54px] mb-6 mt-24"> Découvrir plus</h2>
       <section class=" grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
         <div class="relative flex flex-col h-[480px] md:h-[600px] border border-stone-300 rounded-lg">
-          <div class="w-full h-52 rounded-t-lg relative bg-[url('/asset/image10.png')] bg-cover "></div>
+          <div class="w-full h-52 rounded-t-lg relative bg-[url('/asset/image10.png')] bg-cover bg-center "></div>
           <div class=" m-6">
             <h3 class="text-black text-[22.31px] font-bold  leading-9">Rapport diversité, équité et inclusion</h3>
             <p class=" text-stone-950 text-sm font-normal  leading-normal mt-2">Au cours de la première année complète de notre nouvelle stratégie People & Culture, les enjeux de Diversité, Équité et Inclusion (DE&I) ont occupé le devant de la scène. Ce rapport célèbre les progrès concrets que nous avons réalisés pour refléter la diversité dans nos équipes dirigeantes, libérer tout le potentiel de nos collaborateurs et collaboratrices et avoir un impact sur l’environnement de travail mais aussi au-delà.</p>
@@ -403,8 +429,8 @@
             </svg>
           </span>
         </div>
-        <div class="relative flex flex-col h-[480px] md:h-[600px]border border-stone-300 rounded-lg">
-          <div class="w-full h-52 rounded-t-lg relative bg-[url('/asset/image12.png')] bg-cover "></div>
+        <div class="relative flex flex-col h-[480px] md:h-[600px] border border-stone-300 rounded-lg">
+          <div class="w-full h-52 rounded-t-lg relative bg-[url('/asset/image12.png')] bg-cover bg-center"></div>
           <div class=" m-6">
             <h3 class="text-black text-[22.31px] font-bold  leading-9">Notre héritage</h3>
             <p class=" text-stone-950 text-sm font-normal  leading-normal mt-4">Notre societé d’aujourd’hui s’appuie sur un héritage qui consiste à transformer l’impossible en possible..</p>
@@ -417,7 +443,7 @@
           </span>
         </div>
         <div class="relative flex flex-col h-[480px] md:h-[600px] border border-stone-300 rounded-lg">
-          <div class="w-full h-52 rounded-t-lg relative bg-[url('/asset/image11.png')] bg-cover "></div>
+          <div class="w-full h-52 rounded-t-lg relative bg-[url('/asset/image11.png')] bg-cover bg-center"></div>
           <div class=" m-6">
             <h3 class="text-black text-[22.31px] font-bold  leading-9">Notre rapport intégré 2022</h3>
             <p class=" text-stone-950 text-sm font-normal  leading-normal mt-2">Maladie tropicale négligée, la maladie du sommeil est généralement mortelle en l'absence de traitement. Les patients infectés par la variante la plus aiguë de la maladie, le T.b rhodesiense, n'ont malheureusement bénéficié que de peu d'innovations en matière de traitement. Mais l'espoir pointe à l'horizon. Pour ces patients, nous voyons le potentiel du premier traitement oral pour cette variante de la maladie, soutenant ainsi l'objectif d'élimination de la maladie du sommeil chez l’humain d'ici 2030.</p>
