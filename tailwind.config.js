@@ -7,13 +7,7 @@ module.exports = {
         DEFAULT: '0px',
       },
     },
-    screens: {
-      sm: '640',
-      md: '768',
-      lg: '960',
-      xl: '1200',
-
-    },
+    
     extend: {
       fontFamily: {
         work: ["Work Sans", "sans-serif"],
